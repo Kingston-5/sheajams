@@ -28,7 +28,7 @@ $GLOBALS['config'] = array(
         'token_name' => 'token'
     ),
     'ftp' => array(
-        'servername' => 'localhost:3306',
+        'servername' => 'localhost',
         'username' => 'sysuser_0',
         'password' => 'to$H5ni4kzq6KrKo'
     )
