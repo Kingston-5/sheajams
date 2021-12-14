@@ -29,8 +29,8 @@ $GLOBALS['config'] = array(
     ),
     'ftp' => array(
         'servername' => 'localhost',
-        'username' => 'sysuser_0',
-        'password' => ''
+        'username' => 'testuser',
+        'password' => '_Xt81ks5'
     )
 //     'ftp' => array(
 //         'servername' => 'localhost',
