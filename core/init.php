@@ -8,11 +8,17 @@ session_start();
 //global variables
 $GLOBALS['config'] = array(
     'mysql' => array(
-        'host' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'db' => 'chat'
+        'host' => 'localhost:3306',
+        'username' => 'main_user',
+        'password' => 'to$H5ni4kzq6KrKo',
+        'db' => 'sheajams_main_db'
     ),
+//     'mysql' => array(
+//         'host' => 'localhost',
+//         'username' => 'root',
+//         'password' => '',
+//         'db' => 'chat'
+//     ),
     'remember' => array(
         'cookie_name' => 'hash',
         'cookie_expiry' => 604800
@@ -22,10 +28,15 @@ $GLOBALS['config'] = array(
         'token_name' => 'token'
     ),
     'ftp' => array(
-        'servername' => 'localhost',
-        'username' => 'TestUser',
+        'servername' => 'localhost:3306',
+        'username' => 'sysuser_0',
         'password' => ''
     )
+//     'ftp' => array(
+//         'servername' => 'localhost',
+//         'username' => 'TestUser',
+//         'password' => ''
+//     )
 );
 
 // register the given class in the autoload queue as _autoload() implementation
